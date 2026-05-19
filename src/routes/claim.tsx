@@ -10,8 +10,8 @@ export const Route = createFileRoute("/claim")({
   }),
   head: () => ({
     meta: [
-      { title: "Your $750 Bonus Is Ready — Shien Rewards" },
-      { name: "description", content: "Your spot is confirmed. Sign up free and pick out trending Shien fashion worth $750 — shipped straight to your door." },
+      { title: "Your $750 Bonus Is Ready — Shein Rewards" },
+      { name: "description", content: "Your spot is confirmed. Sign up free and pick out trending Shein fashion worth $750 — shipped straight to your door." },
     ],
   }),
   component: ClaimPage,
@@ -112,7 +112,7 @@ function ClaimPage() {
         </div>
 
         <p className="text-center text-muted-foreground text-lg leading-relaxed mb-8 px-2">
-          Your spot is confirmed. Sign up free and pick out trending Shien fashion worth $750 — shipped straight to your door.
+          Your spot is confirmed. Sign up free and pick out trending Shein fashion worth $750 — shipped straight to your door.
         </p>
 
         {/* CTA */}

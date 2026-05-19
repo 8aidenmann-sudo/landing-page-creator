@@ -3,7 +3,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Claim Your $750 Bonus — Shien Rewards" },
+      { title: "Claim Your $750 Bonus — Shein Rewards" },
       { name: "description", content: "Pick out free dresses, tops, shoes & accessories on us — $750 to spend, delivered to your door. Limited drop today only." },
     ],
   }),
@@ -17,7 +17,7 @@ function Index() {
         <div className="flex justify-center mb-8">
           <div className="flex items-center gap-3 bg-card/80 backdrop-blur-sm pl-2 pr-5 py-2 rounded-full shadow-sm">
             <div className="w-9 h-9 rounded-lg bg-foreground flex items-center justify-center text-background font-bold text-lg">S</div>
-            <span className="text-primary font-semibold">Shien Rewards</span>
+            <span className="text-primary font-semibold">Shein Rewards</span>
           </div>
         </div>
 
