@@ -116,13 +116,13 @@ function ClaimPage() {
         </p>
 
         {/* CTA */}
-        <button
-          onClick={() => alert("Sign up flow would start here")}
+        <a
+          href="https://linkthem.net/aff_c?offer_id=2141&aff_id=162732&source=shein"
           className="w-full bg-gradient-to-b from-primary-glow to-primary text-primary-foreground rounded-2xl py-5 px-6 mb-4 shadow-lg shadow-primary/30 font-bold text-xl flex items-center justify-center gap-3 hover:brightness-105 transition-all active:scale-[0.98]"
         >
           <ShoppingBag className="w-6 h-6" />
           Claim My $750 Now — It's Free
-        </button>
+        </a>
 
         {/* Free shipping row */}
         <div className="flex items-center justify-center gap-3 mb-8">
