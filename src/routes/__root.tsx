@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Shein Survey Rewards" },
+      { name: "description", content: "Earn rewards off your next Shein haul by completing our survey & deals." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Shein Survey Rewards" },
+      { property: "og:description", content: "Earn rewards off your next Shein haul by completing our survey & deals." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Shein Survey Rewards" },
+      { name: "twitter:description", content: "Earn rewards off your next Shein haul by completing our survey & deals." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/T7KWmaza91gH4iiH9BBrBmD8ooz1/social-images/social-1779209597607-448B341B-5F9B-4C87-85A6-5BFE2F3EA683.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/T7KWmaza91gH4iiH9BBrBmD8ooz1/social-images/social-1779209597607-448B341B-5F9B-4C87-85A6-5BFE2F3EA683.webp" },
     ],
     links: [
       {
