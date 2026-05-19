@@ -141,7 +141,20 @@
   }
 
   body {
-    background-color: var(--color-background);
+    background: linear-gradient(180deg, var(--bg-gradient-start), var(--bg-gradient-end));
+    background-attachment: fixed;
     color: var(--color-foreground);
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   }
 }
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.3); }
+}
+
+@keyframes slide-down {
+  from { transform: translateY(-120%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
